@@ -7,7 +7,7 @@ for more information about the repository check the `README.md`.
 
 ## Data
 
-`tidy_df.txt` is a tab delimited table of 180 row (entry) and 81 columns (variables).
+`tidy_df.txt` is a space delimited table of 180 row (entry) and 81 columns (variables).
 
 `tidy_df.txt` is a summary containing the averages of the variables from index 3 to index 81 per unique Subject~Activity.
 
