@@ -90,6 +90,6 @@ df_summary <- bind_cols(list_merge[[1]],list_merge[[3]][,"Activity"],df)%>%
   summarise_all(mean,na.rm = T)%>%
   ungroup()
 
-# save the output as tab delimited file
-write_tsv(df_summary,path = "tidy_df.txt")
+# save the output as requested
+write.table(df_summary,file = "tidy_df.txt",row.names = FALSE)
 ################################################################################################################
