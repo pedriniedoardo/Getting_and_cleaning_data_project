@@ -14,7 +14,7 @@ A full description of the data is available at [this site](http://archive.ics.uc
 
 ## Task
 
-The data were downloaded locally and stored in the working directory.
+The data were downloaded locally and stored in `UCI HAR Dataset` under the working directory.
 
 The R script `run_analysis.R` contains all the steps used to produce the tidy datase `tidy_df.txt`, starting from the raw data.
 In particular the main steps implemented into the script are:
